@@ -1,0 +1,5 @@
+c:\users\nguyen tien tung\documents\visual studio 2012\Projects\nhom8_tungntph02392_GD2\nhom8_tungntph02392_GD2\bin\nhom8_tungntph02392_GD2.dll
+c:\users\nguyen tien tung\documents\visual studio 2012\Projects\nhom8_tungntph02392_GD2\nhom8_tungntph02392_GD2\bin\nhom8_tungntph02392_GD2.pdb
+c:\users\nguyen tien tung\documents\visual studio 2012\Projects\nhom8_tungntph02392_GD2\nhom8_tungntph02392_GD2\obj\Debug\nhom8_tungntph02392_GD2.dll
+c:\users\nguyen tien tung\documents\visual studio 2012\Projects\nhom8_tungntph02392_GD2\nhom8_tungntph02392_GD2\obj\Debug\nhom8_tungntph02392_GD2.pdb
+C:\Users\Nguyen Tien Tung\Documents\Visual Studio 2012\Projects\nhom8_tungntph02392_GD2\nhom8_tungntph02392_GD2\obj\Debug\nhom8_tungntph02392_GD2.csprojResolveAssemblyReference.cache

@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+nav {
+	height:35px;
+}	
+nav#menu ul li {
+	float:left;
+	line-height:35px;
+	list-style-type:none;
+	padding:0 15px;
+	background-image:url(../images/main-bg_menu.png);
+	width:16.2%;
+	font-weight:bold;
+}
+nav#menu ul li a:hover{
+	color:#FF0;
+}
+nav#menu ul li a{
+	color:#03C;
+}
+/*lv2*/
+#menu ul li ul li {
+	background-image:url(../images/main-bg_menu.png);
+	width:100px;
+	height:35px;
+	margin-left:-25px;
+	border:1px outset #CCC;
+	border-radius:7px;
+}
+#menu ul li ul li a{
+	color:#03F;
+	} 
+#menu ul li ul li a:hover{
+	color:yellow;
+	} 
+#menu li ul{
+	position:absolute;
+	display:none;
+	width:200px;
+}
+ 
+#menu li:hover ul{
+	display:block;
+}
+/*ben trai*/
+nav#menu_left ul li {
+	list-style-type:none;
+	line-height:35px;
+	width:91%;
+	background: rgb(169,169,169);
+	padding-left:15px;
+	border-bottom: 1px solid #e8e8e8;
+	float:left;
+}
+nav#menu_left ul li a:hover{
+	color:#FF0;
+}
+nav#menu_left ul li:hover{
+	background-color:#CDE2CD;
+}
+header#left_top {
+	background-image:url(../images/main-bg_menu.png);
+	width: 146px;
+	height: 40px;
+	line-height: 40px;
+	list-style-type: none;
+	text-align: left;
+	border-bottom: 1px solid #e8e8e8;
+	padding-left:15px;
+	font-weight:bold;
+	float:left;
+}
+nav#menu_left a{
+	color:#03C;
+}

@@ -1,0 +1,52 @@
+﻿nav#menu ul li{
+	list-style-type: none;
+	float: left;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background:repeat url(../image/bg_menu.png);
+	font-size: 20px;
+	border-radius:4px;
+
+}
+nav#menu ul li:hover{
+	border-radius: 10px;
+}
+nav#menu ul li a:hover{
+	color:yellow;
+}
+nav#menu ul li a{
+	color: white;
+}
+/*ben trai*/
+nav#menu_left ul li {
+	list-style-type:none;
+	line-height:35px;
+	width:97.5%;
+	background: rgb(169,169,169);
+	padding-left:15px;
+	border-bottom: 1px solid #e8e8e8;
+	float:left;
+}
+nav#menu_left ul li a:hover{
+	color:#FF0;
+}
+nav#menu_left ul li:hover{
+	background-color:#CDE2CD;
+}
+header#left_top {
+	background-image:url(../image/main-bg_menu.png);
+	width: 165px;
+	height: 40px;
+	line-height: 40px;
+	list-style-type: none;
+	text-align: left;
+	border-bottom: 1px solid #e8e8e8;
+	padding-left:15px;
+	font-weight:bold;
+	float:left;
+}
+nav#menu_left a{
+	color:#03C;
+}

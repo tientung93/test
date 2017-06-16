@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+@font-face{
+	font:"Matias Font";
+	font-family:"Matias Font";
+	src:url(../font/Matias_Font.ttf)
+}
+p{
+    font-size:13px;
+}
+body {
+	background:repeat url(../images/bg_body.jpg);
+    background-attachment: fixed;
+}
+#border{
+	width:810px;
+    height:auto;
+    background-color:white;
+    margin:auto;
+}
+#warpper{
+	width:800px;
+	margin:auto;
+	height:900px;
+	padding-top:5px;
+}
+#content{
+	width:800px;
+}
+#left{
+	width:146px;
+	float:left;
+}
+#cate_left{
+	float:left;
+	margin-bottom:3px;
+}
+#left_bot{
+	float:left;
+}
+#center {
+    width:465px;
+    height:600px;
+    float:left;
+    margin-left:20px;
+    margin-right:5px;
+}
+#nd_center{
+	width:465px;
+	height:160px;
+	margin-bottom:15px;
+	border-left: dashed 1px #333;
+	border-bottom:dashed 1px #333;
+	border-right: dashed 1px #333;
+}
+#nd_center img{	
+	margin-right:5px;
+	float:left;
+}
+#center_top{
+	background-image:url(../images/main-bg_menu.png);
+	line-height:40px;
+	padding-left:15px;
+	color:#03F;
+	font-weight:bold;
+}
+#nd_center_top{
+	margin-top:5px;
+	margin-left:5px;
+	
+}
+#right{
+    width:146px;
+    float:left;
+}
+h2{
+	font-size:14px;
+	color:#03F;
+}
+
+footer{
+	background:repeat url(../images/footer.jpg);
+	width:800px;
+    height:70px;
+    float:left;
+    text-align:center;
+}
+img:hover {
+	opacity:0.7;
+	border-radius:180px;
+	box-shadow:4px 3px 5px #666666;
+}
+img{
+	box-shadow:3px 3px 3px #FFCC99;
+}
+header img:hover{
+	border-radius:1px;
+}
+#about{
+	box-sizing:border-box;
+	border:1px solid black;
+	padding:2px;
+	border-top:none;
+}
+p#ab{
+	font-size:16px;
+	font-weight:bold;
+	font-family:"Matias Font";
+}
+img#logo_ab{
+	box-shadow:none;
+	border-radius:0px;
+	padding-left:140px;
+}
+img#logo_ab:hover{
+	opacity:1;
+}
+form#lienhe{
+	width:500px;
+	height:550px;
+	margin:auto;
+	margin-top:30px;
+}
+table tr td{
+	padding-right:20px;
+	height:15px;
+	line-height:15px;
+	text-align:left;
+}
+table tr td input{
+	height:20px;
+}
+table tr td input#send{
+	width:50px;
+	height:30px;
+}
+table tr td input#send:hover{
+	width:50px;
+	height:30px;
+	background:#FF9;
+}
+label{
+	font-family:"Matias Font";
+	font-size:18px;
+}
+section.lh{
+	text-align:center;
+}
