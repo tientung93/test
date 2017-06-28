@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="member2.aspx" />
     <Content Include="product.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="image\1.png" />
@@ -81,9 +82,17 @@
     <Content Include="index.aspx" />
     <Content Include="style\css1.css" />
     <Content Include="style\menu1.css" />
+    <Content Include="test member1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="member2.aspx.cs">
+      <DependentUpon>member2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="member2.aspx.designer.cs">
+      <DependentUpon>member2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="product.aspx.cs">
       <DependentUpon>product.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -106,6 +115,13 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test member1.aspx.cs">
+      <DependentUpon>test member1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test member1.aspx.designer.cs">
+      <DependentUpon>test member1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
